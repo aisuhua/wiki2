@@ -25,6 +25,6 @@ $ sudo netplan apply
 PPA
 
 ```
-$ sudo sed -i "s/http:\/\/ppa.launchpad.net/https:\/\/launchpad.proxy.ustclug.org/g" /etc/apt/sources.list.d/*.list
-$ sudo apt update
+sudo sed -i "s/http:\/\/ppa.launchpad.net/https:\/\/launchpad.proxy.ustclug.org/g" /etc/apt/sources.list.d/*.list
+sudo apt update
 ```
