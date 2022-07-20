@@ -22,7 +22,7 @@ $ sudo netplan apply
 
 ## 软件源
 
-PPA
+使用中国科技大学的代理地址加速访问 PPA
 
 ```
 sudo sed -i "s/http:\/\/ppa.launchpad.net/https:\/\/launchpad.proxy.ustclug.org/g" /etc/apt/sources.list.d/*.list
