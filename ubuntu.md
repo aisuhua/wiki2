@@ -4,7 +4,7 @@
 
 ## 网络
 
-静态 IP
+配置 IP、网关、DNS 等信息
 
 ```
 $ sudo vim /etc/netplan/00-installer-config.yaml
