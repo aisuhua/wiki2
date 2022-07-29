@@ -22,9 +22,30 @@ $ sudo netplan apply
 
 ## 软件源
 
+官方软件源
+
+```
+$ sudo vim /etc/apt/sources.list
+deb http://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+## Not recommended
+# deb http://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+# deb-src http://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
+```
+
 使用中国科技大学的代理地址加速访问 PPA
 
 ```
 sudo sed -i "s/http:\/\/ppa.launchpad.net/https:\/\/launchpad.proxy.ustclug.org/g" /etc/apt/sources.list.d/*.list
 sudo apt update
 ```
+
+## Ref
+
+1. https://mirrors.ustc.edu.cn/repogen/
