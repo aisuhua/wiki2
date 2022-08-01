@@ -46,7 +46,7 @@ sudo sed -i "s/http:\/\/ppa.launchpad.net/https:\/\/launchpad.proxy.ustclug.org/
 sudo apt update
 ```
 
-## Issue 
+## 常见问题
 
 XRDP 远程 Ubuntu 时，桌面菜单不一样
 
