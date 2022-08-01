@@ -46,6 +46,20 @@ sudo sed -i "s/http:\/\/ppa.launchpad.net/https:\/\/launchpad.proxy.ustclug.org/
 sudo apt update
 ```
 
+## Issue 
+
+XRDP 远程 Ubuntu 时，桌面菜单不一样
+
+```
+$ sudo vim /etc/xrdp/startwm.sh
+export DESKTOP_SESSION=ubuntu
+export GNOME_SHELL_SESSION_MODE=ubuntu
+export XDG_CURRENT_DESKTOP=ubuntu:GNOME
+$ sudo systemctl restart xrpd
+```
+
 ## Ref
 
 1. https://mirrors.ustc.edu.cn/repogen/
+2. https://superuser.com/a/1655262
+3. https://github.com/neutrinolabs/xrdp/issues/1723
