@@ -1,8 +1,13 @@
 # MySQL
 
-## 常用语句
+## CheetSheet
 
-```ini
+### DB
+
+```sql
+# 指定字符集
+CREATE DATABASE mydatabase CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
 # 查看版本
 show variables like "version";
 
