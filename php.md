@@ -6,8 +6,8 @@
 
 ```
 sudo wget https://mirrors.cloud.tencent.com/composer/composer.phar
-mv composer.phar  /usr/local/bin/composer
-chmod a+x /usr/local/bin/composer
+sudo mv composer.phar  /usr/local/bin/composer
+sudo chmod a+x /usr/local/bin/composer
 composer config -g repos.packagist composer https://mirrors.cloud.tencent.com/composer/
 ```
 
@@ -15,8 +15,8 @@ composer config -g repos.packagist composer https://mirrors.cloud.tencent.com/co
 
 ```
 sudo wget https://mirrors.aliyun.com/composer/composer.phar
-mv composer.phar  /usr/local/bin/composer
-chmod a+x /usr/local/bin/composer
+sudo mv composer.phar  /usr/local/bin/composer
+sudo chmod a+x /usr/local/bin/composer
 composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 ```
 
