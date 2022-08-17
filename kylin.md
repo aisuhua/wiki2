@@ -17,6 +17,15 @@ DNS2=223.223.223.223
 $ sudo systemctl restart NetworkManager
 ```
 
+## User
+
+密码永不过期
+
+```sh
+sudo chage -l dmadmin
+sudo chage -M 99999 dmadmin
+```
+
 ## Ref
 
 暂无
