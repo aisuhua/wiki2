@@ -1,5 +1,12 @@
 # Docker
 
+## 安装
+
+```
+# 加当前用户加入 docker 组
+sudo gpasswd -a $USER docker
+```
+
 ## 国内源
 
 ```
