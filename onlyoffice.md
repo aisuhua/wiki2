@@ -39,3 +39,4 @@ docker exec onlyoffice-document-server documentserver-generate-allfonts.sh
 
 1. [Adding fonts to ONLYOFFICE Docs](https://helpcenter.onlyoffice.com/installation/docs-community-install-fonts-linux.aspx)
 2. [onlyoffice-chinese-fonts](https://github.com/funggtopp/onlyoffice-chinese-fonts)
+3. [Installing ONLYOFFICE Workspace using Docker Compose](https://helpcenter.onlyoffice.com/installation/workspace-install-docker-compose.aspx)
