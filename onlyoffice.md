@@ -17,6 +17,9 @@ docker-compose -f docker-compose.workspace.yml up
 docker exec -it onlyoffice-mysql-server bash
 update core_user set activation_status=1 where username='suhua'
 
+# 激活全部待激活用户
+update core_user set activation_status=1 where activation_status=2
+
 # 重启服务让其生效
 docker exec -it onlyoffice-community-server bash
 systemctl restart monoserve
