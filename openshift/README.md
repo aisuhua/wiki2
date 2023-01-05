@@ -6,6 +6,14 @@
 2. https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/
 3. https://access.redhat.com/labs/ocpupgradegraph/update_path
 
+## 技巧
+
+制作启动盘
+
+```sh
+dd if=coreos.iso of=<dev/sdx> status=progress
+```
+
 ## 参考文献
 
 1. [设置 MCP 更新时最大不可用数](https://access.redhat.com/solutions/4669561)
