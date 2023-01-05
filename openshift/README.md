@@ -3,6 +3,8 @@
 ## 资源
 
 1. https://mirror.openshift.com/pub/openshift-v4/
+2. https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/
+3. https://access.redhat.com/labs/ocpupgradegraph/update_path
 
 ## 参考文献
 
