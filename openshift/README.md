@@ -20,3 +20,4 @@ dd if=coreos.iso of=<dev/sdx> status=progress
 2. [修改 Worker Pod Limit 值-1](https://docs.openshift.com/container-platform/4.8/post_installation_configuration/machine-configuration-tasks.html#create-a-containerruntimeconfig_post-install-machine-configuration-tasks)
 3. [修改 Worker Pod Limit 值-2](https://access.redhat.com/solutions/5366631)
 4. [ImagePrunerDegraded error stalling upgrade](https://access.redhat.com/solutions/5370391)
+5. [How to update the PodDisruptionBudget and RollingUpdate of routers on OCP 4](https://access.redhat.com/solutions/6542021) （[参考1](https://github.com/openshift/cluster-ingress-operator/blob/cb614126da5151f1a115152ae1fc3ef70ee93ca1/pkg/operator/controller/ingress/poddisruptionbudget.go#L71-L74)）
