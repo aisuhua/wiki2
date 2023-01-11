@@ -5,6 +5,7 @@
 1. https://mirror.openshift.com/pub/openshift-v4/
 2. https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/
 3. https://access.redhat.com/labs/ocpupgradegraph/update_path
+4. https://openshift-release.apps.ci.l2s4.p1.openshiftapps.com/releasestream/4-stable/release/4.8.56?from=4.8.36
 
 ## 技巧
 
