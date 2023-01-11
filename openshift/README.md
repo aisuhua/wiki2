@@ -22,3 +22,4 @@ dd if=coreos.iso of=<dev/sdx> status=progress
 3. [修改 Worker Pod Limit 值-2](https://access.redhat.com/solutions/5366631)
 4. [ImagePrunerDegraded error stalling upgrade](https://access.redhat.com/solutions/5370391)
 5. [How to update the PodDisruptionBudget and RollingUpdate of routers on OCP 4](https://access.redhat.com/solutions/6542021) （[参考1](https://github.com/openshift/cluster-ingress-operator/blob/cb614126da5151f1a115152ae1fc3ef70ee93ca1/pkg/operator/controller/ingress/poddisruptionbudget.go#L71-L74)）
+6. [The node in a degraded state because of the use of a deleted machineconfig: machineconfig.machineconfiguration.openshift.io; rendered-$[custom-machine-config] not found in OpenShift 4.x](https://access.redhat.com/solutions/4970731)
