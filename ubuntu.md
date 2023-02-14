@@ -58,6 +58,12 @@ export XDG_CURRENT_DESKTOP=ubuntu:GNOME
 $ sudo systemctl restart xrpd
 ```
 
+vmware 443 端口占用
+
+```
+Go to menu Edit -> Preferences -> Shared VMs and click on "Disable Sharing".
+```
+
 ## Ref
 
 1. https://mirrors.ustc.edu.cn/repogen/
