@@ -24,6 +24,15 @@ $ sudo systemctl daemon-reload
 $ sudo systemctl restart docker
 ```
 
+## 常见问题
+
+执行 `sudo systemctl status docker` 后，提示 `Failed to start Docker Application Container Engine.`
+
+```sh
+# 查看报错信息
+sudo dockerd 
+```
+
 ## Ref
 
 1. [How to set user and group in Docker Compose](https://blog.giovannidemizio.eu/2021/05/24/how-to-set-user-and-group-in-docker-compose/)
