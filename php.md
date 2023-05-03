@@ -20,6 +20,13 @@ sudo chmod a+x /usr/local/bin/composer
 composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 ```
 
+## Install
+
+```sh
+# 查看 extension 版本
+php --ri phalcon
+```
+
 ## Ref
 
 1. https://mirrors.cloud.tencent.com/help/composer.html
