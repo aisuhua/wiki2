@@ -1,5 +1,12 @@
 # Docker
 
+## CheetSheet
+
+```sh
+# 查看进程信息
+docker top <container_id>
+```
+
 ## 安装
 
 ```
