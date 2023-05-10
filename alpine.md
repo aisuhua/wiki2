@@ -9,3 +9,13 @@
 ```
 sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
 ```
+
+## 常见问题
+
+运行 glang 二进制程序
+
+```sh
+apk add gcompat
+```
+
+- https://github.com/openshift/origin/issues/18942#issuecomment-907780179
