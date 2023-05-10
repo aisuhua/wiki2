@@ -40,6 +40,10 @@ $ sudo systemctl restart docker
 sudo dockerd 
 ```
 
+Docker multiple entrypoints
+
+- https://stackoverflow.com/questions/18805073/docker-multiple-entrypoints
+
 ## Ref
 
 1. [How to set user and group in Docker Compose](https://blog.giovannidemizio.eu/2021/05/24/how-to-set-user-and-group-in-docker-compose/)
